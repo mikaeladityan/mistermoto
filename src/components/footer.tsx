@@ -10,27 +10,27 @@ export function Footer() {
 			<div className="text-center md:text-start flex flex-col gap-y-2 font-medium text-gray-600">
 				<p>Jl Menanggal Indah 8 No. 21, Gayungan, Kota Surabaya.</p>
 				<p>Jl Mutiara Gading Jaya “Ruko Unicorn No 19.20”, Tarumajaya, Kab. Bekasi.</p>
-				<Link href={"/"}>+62 812-8234-5567</Link>
+				<Link href={"https://api.whatsapp.com/send?phone=6281282345567&text=Hallo%20Mistermoto%20Indonesia"}>+62 812-8234-5567</Link>
 			</div>
 
 			<div className="flex items-center justify-center space-x-3 md:col-span-2 lg:col-span-1">
-				<button type="button" className="flex items-center justify-center w-12 rounded-xl h-12  bg-amber-600/10">
+				<Link target="_blank" href={"https://www.facebook.com/setrikauaplaundrygas/"} className="flex items-center justify-center w-12 rounded-xl h-12  bg-amber-600/10">
 					<svg fill="#e17100" width="25px" height="25px" viewBox="0 0 24 24" id="facebook" data-name="Flat Color" xmlns="http://www.w3.org/2000/svg" className="icon flat-color">
 						<path id="primary" d="M14,6h3a1,1,0,0,0,1-1V3a1,1,0,0,0-1-1H14A5,5,0,0,0,9,7v3H7a1,1,0,0,0-1,1v2a1,1,0,0,0,1,1H9v7a1,1,0,0,0,1,1h2a1,1,0,0,0,1-1V14h2.22a1,1,0,0,0,1-.76l.5-2a1,1,0,0,0-1-1.24H13V7A1,1,0,0,1,14,6Z"></path>
 					</svg>
-				</button>
-				<button type="button" className="flex items-center justify-center w-12 rounded-xl h-12  bg-amber-600/10">
+				</Link>
+				<Link target="_blank" href={"https://www.tiktok.com/@mistermoto.idhttps://www.tiktok.com/@mistermoto.id"} className="flex items-center justify-center w-12 rounded-xl h-12  bg-amber-600/10">
 					<svg fill="#e17100" width="25px" height="25px" viewBox="0 0 24 24" id="tiktok" data-name="Flat Color" xmlns="http://www.w3.org/2000/svg" className="icon flat-color">
 						<path id="primary" d="M21,7V9a1,1,0,0,1-1,1,8,8,0,0,1-4-1.08V15.5A6.5,6.5,0,1,1,6.53,9.72a1,1,0,0,1,1.47.9v2.52a.92.92,0,0,1-.28.62,2.49,2.49,0,0,0,2,4.23A2.61,2.61,0,0,0,12,15.35V3a1,1,0,0,1,1-1h2.11a1,1,0,0,1,1,.83A4,4,0,0,0,20,6,1,1,0,0,1,21,7Z"></path>
 					</svg>
-				</button>
-				<button type="button" className="flex items-center justify-center w-12 rounded-xl h-12  bg-amber-600/10">
+				</Link>
+				<Link target="_blank" href="https://www.youtube.com/channel/UCF29sU5FnhkFCPVZspW94Zw" className="flex items-center justify-center w-12 rounded-xl h-12  bg-amber-600/10">
 					<IconBrandYoutubeFilled className="text-amber-600" size={25} stroke={0.5} />
-				</button>
-				<button type="button" className="flex items-center justify-center w-12 rounded-xl h-12  bg-amber-600/10">
+				</Link>
+				<Link target="_blank" href="https://shope.ee/9zNVIfSJX7" className="flex items-center justify-center w-12 rounded-xl h-12  bg-amber-600/10">
 					<IconBrandShopee className="text-amber-600" size={25} stroke={2} />
-				</button>
-				<button type="button" className="flex items-center justify-center w-12 rounded-xl h-12  bg-amber-600/10">
+				</Link>
+				<Link target="_blank" href="https://www.tokopedia.com/tukanglaundry/home?utm_source=salinlink&utm_medium=share&utm_campaign=Shop-5492104-654869-Halaman" className="flex items-center justify-center w-12 rounded-xl h-12  bg-amber-600/10">
 					<svg width="25px" height="25px" viewBox="0 0 192 192" xmlns="http://www.w3.org/2000/svg" fill="none">
 						<path
 							fill="#e17100"
@@ -39,7 +39,7 @@ export function Footer() {
 							clipRule="evenodd"
 						/>
 					</svg>
-				</button>
+				</Link>
 			</div>
 		</footer>
 	);
