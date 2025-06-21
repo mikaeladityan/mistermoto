@@ -8,9 +8,10 @@ export function Footer() {
 			<Brand className="text-center items-center" />
 
 			<div className="text-center md:text-start flex flex-col gap-y-2 font-medium text-gray-600">
-				<p>Jl Menanggal Indah 8 No. 21, Gayungan, Kota Surabaya.</p>
+				<p>Jl. Menanggal 5 No.43, Kota Surabaya</p>
 				<p>Jl Mutiara Gading Jaya “Ruko Unicorn No 19.20”, Tarumajaya, Kab. Bekasi.</p>
 				<Link href={"https://api.whatsapp.com/send?phone=6281282345567&text=Hallo%20Mistermoto%20Indonesia"}>+62 812-8234-5567</Link>
+				<Link href={"mailto:jourdanlaundrymart.hq@gmail.com"}>jourdanlaundrymart.hq@gmail.com</Link>
 			</div>
 
 			<div className="flex items-center justify-center space-x-3 md:col-span-2 lg:col-span-1">
@@ -19,7 +20,7 @@ export function Footer() {
 						<path id="primary" d="M14,6h3a1,1,0,0,0,1-1V3a1,1,0,0,0-1-1H14A5,5,0,0,0,9,7v3H7a1,1,0,0,0-1,1v2a1,1,0,0,0,1,1H9v7a1,1,0,0,0,1,1h2a1,1,0,0,0,1-1V14h2.22a1,1,0,0,0,1-.76l.5-2a1,1,0,0,0-1-1.24H13V7A1,1,0,0,1,14,6Z"></path>
 					</svg>
 				</Link>
-				<Link target="_blank" href={"https://www.tiktok.com/@mistermoto.idhttps://www.tiktok.com/@mistermoto.id"} className="flex items-center justify-center w-12 rounded-xl h-12  bg-amber-600/10">
+				<Link target="_blank" href={"https://www.tiktok.com/@mistermoto.id"} className="flex items-center justify-center w-12 rounded-xl h-12  bg-amber-600/10">
 					<svg fill="#e17100" width="25px" height="25px" viewBox="0 0 24 24" id="tiktok" data-name="Flat Color" xmlns="http://www.w3.org/2000/svg" className="icon flat-color">
 						<path id="primary" d="M21,7V9a1,1,0,0,1-1,1,8,8,0,0,1-4-1.08V15.5A6.5,6.5,0,1,1,6.53,9.72a1,1,0,0,1,1.47.9v2.52a.92.92,0,0,1-.28.62,2.49,2.49,0,0,0,2,4.23A2.61,2.61,0,0,0,12,15.35V3a1,1,0,0,1,1-1h2.11a1,1,0,0,1,1,.83A4,4,0,0,0,20,6,1,1,0,0,1,21,7Z"></path>
 					</svg>
