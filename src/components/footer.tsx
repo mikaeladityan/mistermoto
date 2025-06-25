@@ -11,7 +11,7 @@ export function Footer() {
 				<p>Jl. Menanggal 5 No.43, Kota Surabaya</p>
 				<p>Jl Mutiara Gading Jaya “Ruko Unicorn No 19.20”, Tarumajaya, Kab. Bekasi.</p>
 				<Link href={"https://api.whatsapp.com/send?phone=6281282345567&text=Hallo%20Mistermoto%20Indonesia"}>+62 812-8234-5567</Link>
-				<Link href={"mailto:jourdanlaundrymart.hq@gmail.com"}>jourdanlaundrymart.hq@gmail.com</Link>
+				<Link href={"mailto:mistermoto.id@gmail.com"}>mistermoto.id@gmail.com</Link>
 			</div>
 
 			<div className="flex items-center justify-center space-x-3 md:col-span-2 lg:col-span-1">
